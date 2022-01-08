@@ -59,6 +59,10 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+            label: 'Resources',
+            to: 'resources',
+          }
         ],
       },
       footer: {
