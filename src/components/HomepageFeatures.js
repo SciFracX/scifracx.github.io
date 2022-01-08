@@ -8,8 +8,7 @@ const FeatureList = [
     Svg: require('../../static/img/highperformance.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        with the high performance Julia language, packages in SciFracX project value the speed of each algorithms, try our best to provide users high performance features.
       </>
     ),
   },
@@ -18,8 +17,7 @@ const FeatureList = [
     Svg: require('../../static/img/easytouse.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        A good software should be friendly to users, SciFracX packages privide users out-of-the-box experience with intuitive API and illustrative docs.
       </>
     ),
   },
@@ -28,8 +26,7 @@ const FeatureList = [
     Svg: require('../../static/img/reliability.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Every functions in packages of SciFracX project has been tested to provide trustworthy features.
       </>
     ),
   },

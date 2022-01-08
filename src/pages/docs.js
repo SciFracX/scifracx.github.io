@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 
-
+import Grid from '@mui/material/Grid';
 import Link from '@mui/material/Link'
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -17,38 +17,35 @@ function Page() {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        height: '30vh',
         marginLeft: '30px',
-        fontSize: '50rem',
+        marginBottom: '30px'
       }}>
             <h1>Documents for SciFracX</h1>
             </div>
-      <div
-        style={{
-          display: 'flex',
-          flexWrap: 'wrap',
-          alignItems: 'stretch',
-          height: '30vh',
-          padding: '80px 30px 30px 30px',
-          fontSize: '20px',
-        }}>
-            
-          <ActionAreaCard />
+
+            <Grid container spacing={15} >
+            <Grid item xs>
             <FractionalSystemsCard />
+            </Grid>
+            <Grid item xs>
             <FractionalDiffEqCard />
-            <br />
+            </Grid>
+            <Grid item xs>
             <FractionalCalculusCard />
+            </Grid>
+            <Grid item xs>
             <FractionalTransformsCard />
-      </div>
+            </Grid>
+            </Grid>
+
     </Layout>
   );
 }
 
-function ActionAreaCard() {
+function FractionalSystemsCard() {
   return (
-    <Link >
-    <Card sx={{ maxWidth: 500 }}>
-      <CardActionArea underline='none' href='https://github.com'>
+    <Card sx={{ maxWidth: 600 }} >
+      <CardActionArea underline="none"  href="https://github.com/SciFracX/FractionalSystems.jl">
         <CardContent>
           <Typography gutterBottom variant="h3" component="div">
             FractionalSystems.jl
@@ -59,64 +56,58 @@ function ActionAreaCard() {
         </CardContent>
       </CardActionArea>
     </Card>
-    </Link>
   );
 }
 
-function FractionalSystemsCard() {
-    return (
-          <div
-          style={{
-            padding: '30px 30px 30px 30px',
-            float: 'left'
-          }}>
-            <div className='card'><h3 style={{
-              fontSize: '40px'
-            }}>FractionalSystems.jl</h3>Fractional order systems modeling and analysis(fractional PID and analysis)</div>
-          </div>
-        )
-}
-
 function FractionalDiffEqCard() {
-    return (
-          <div
-          style={{
-            padding: '30px 30px 30px 30px',
-            float: 'right'
-          }}>
-            <div className='card'><h3 style={{
-              fontSize: '40px'
-            }}>FractionalDiffEq.jl</h3>Fractional differential equations high performance solvers.</div>
-          </div>
-        )
+  return (
+    <Card sx={{ maxWidth: 500 }} >
+      <CardActionArea  href="https://github.com/SciFracX/FractionalSystems.jl">
+        <CardContent>
+          <Typography gutterBottom variant="h3" component="div">
+          FractionalDiffEq.jl
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+          Fractional differential equations high performance solvers.
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+    </Card>
+  );
 }
 
 function FractionalCalculusCard() {
-    return (
-          <div
-          style={{
-            padding: '30px 30px 30px 30px',
-            float: 'left'
-          }}>
-
-            <div className='card'><h3 style={{
-              fontSize: '40px'
-            }}>FractionalCalculus.jl</h3>Fractional derivative and integral computing with high performance algorithms</div>
-          </div>
-        )
+  return (
+    <Card sx={{ maxWidth: 500 }} >
+      <CardActionArea  href="https://github.com/SciFracX/FractionalSystems.jl">
+        <CardContent>
+          <Typography gutterBottom variant="h3" component="div">
+          FractionalCalculus.jl
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+          Fractional derivative and integral computing with high performance algorithms
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+    </Card>
+  );
 }
+
 function FractionalTransformsCard() {
-    return (
-          <div
-          style={{
-            padding: '30px 30px 30px 30px',
-            float: 'right'
-          }}>
-            <div className='card'><h3 style={{
-              fontSize: '40px'
-            }}>FractionalTransforms.jl</h3></div>
-          </div>
-        )
+  return (
+    <Card sx={{ maxWidth: 500 }} >
+      <CardActionArea  href="https://github.com/SciFracX/FractionalSystems.jl">
+        <CardContent>
+          <Typography gutterBottom variant="h3" component="div">
+          FractionalTransforms.jl
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+          Fractional fourier transform, fractional sine transform and fractional cosine transform.
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+    </Card>
+  );
 }
 
 export default Page;
