@@ -4,6 +4,8 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+const video = require('mdx-embed');
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'SciFracX',
@@ -24,13 +26,15 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/SciFracX/scifracx.github.io',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/SciFracX/scifracx.github.io/blob/master/',
+
+            rehypePlugins: [video]
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -58,6 +62,10 @@ const config = {
             href: 'https://github.com/SciFracX',
             label: 'GitHub',
             position: 'right',
+          },
+          {
+            label: 'Community',
+            to: 'community'
           },
           {
             label: 'Resources',

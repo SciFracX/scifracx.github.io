@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('../../static/img/highperformance.svg').default,
     description: (
       <>
-        with the high performance Julia language, packages in SciFracX project value the speed of each algorithms, try our best to provide users high performance features.
+        With the high performance Julia language, we value the speed of each algorithms in SciFracX project, try our best to provide users high performance features.
       </>
     ),
   },
@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('../../static/img/easytouse.svg').default,
     description: (
       <>
-        A good software should be friendly to users, SciFracX packages privide users out-of-the-box experience with intuitive API and illustrative docs.
+        A good software should be friendly to users, SciFracX packages privide users out-of-the-box experience with intuitive API and [illustrative docs]().
       </>
     ),
   },
