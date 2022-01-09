@@ -4,9 +4,17 @@
         <title>SciFracX Blog</title>
         <link>https://scifracx.org/blog</link>
         <description>SciFracX Blog</description>
-        <lastBuildDate>Fri, 07 Jan 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 09 Jan 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[SciFracX in JuliaCN Winter Conference]]></title>
+            <link>https://scifracx.org/blog/scifracx-on-juliacn</link>
+            <guid>scifracx-on-juliacn</guid>
+            <pubDate>Sun, 09 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[In 2021 winter, SciFracX participated the winter online meetup hosted by JuliaCN. (Before SciFracX official website published🤪)]]></description>
+            <content:encoded><![CDATA[<p>In 2021 winter, SciFracX participated the winter online meetup hosted by JuliaCN. (Before SciFracX official website published🤪)</p><p>The video:</p><div youTubeId="oVvrW7EgEwg"></div><br/><p>The slides:</p><iframe src="https://julia-cn-conf2021.vercel.app/1" height="400px" width="700px"></iframe>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Hello World!]]></title>
             <link>https://scifracx.org/blog/mdx-blog-post</link>
