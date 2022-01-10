@@ -9,7 +9,7 @@ const video = require('mdx-embed');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'SciFracX',
-  tagline: 'Fractional Computing and Modeling with SciFracX',
+  tagline: 'Fractional Order Computing and Modeling with SciFracX',
   url: 'https://scifracx.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
