@@ -32,7 +32,22 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   flex-wrap: wrap;
 }
 
-.row a {
+.CardContainer {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: stretch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.CardContainer a {
   text-decoration: none;
   text-decoration-color: none;
 }

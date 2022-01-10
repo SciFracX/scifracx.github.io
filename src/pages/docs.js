@@ -30,17 +30,17 @@ function Page() {
             </div>
 
                 <div className="container">
-                <div className="row" style={{marginLeft: '100px'}}>
-                <a href="https://github.com" target="_blank">
+                <div className="CardContainer">
+                <a href="http://scifracx.org/FractionalSystems.jl/dev/" target="_blank">
                 <Card sectionHead={"FractionalSystems.jl"} items={"Fractional order systems modeling and analysis(fractional PID and analysis)"} />
                 </a>
-                <a href="https://github.com" target="_blank">
+                <a href="http://scifracx.org/FractionalDiffEq.jl/dev/" target="_blank">
                 <Card sectionHead={"FractionalDiffEq.jl"} items={"Fractional differential equations high performance solvers, capable of solving multi-term, system differential equations."} />
                 </a>
-                <a href="https://github.com" target="_blank">
+                <a href="http://scifracx.org/FractionalCalculus.jl/dev/" target="_blank">
                 <Card sectionHead={"FractionalCalculus.jl"} items={"Fractional derivative and integral computing with high performance algorithms"} />
                 </a>
-                <a href="https://github.com" target="_blank">
+                <a href="http://scifracx.org/FractionalTransforms.jl/dev/" target="_blank">
                 <Card sectionHead={"FractionalTransforms.jl"} items={"Fractional fourier transform, fractional sine transform and fractional cosine transform."} />
                 </a>
         </div>
