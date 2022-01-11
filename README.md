@@ -1,41 +1,28 @@
-# Website
+# SciFracX Website
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+SciFracX website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
 
-```
-$ yarn
-```
+1. ```git clone https://github.com/SciFracX/scifracx.github.io``` to download the website source code.
+2. ```cd scifracx.github.io``` to enter the website source code directory.
+3. ```yarn``` to install dependencies.
 
-### Local Development
+### Run locally
 
 ```
 $ yarn start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+And you can visit the website at http://localhost:3000.
 
-### Build
+### Publish
 
-```
-$ yarn build
-```
+Whenever a new commit lands in master, the change will be automatically published to the **gh-page** branch and then published to the website: https://scifracx.org.
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-### Deployment
+## Contributing
 
-Using SSH:
+If you're here because you would like to contribute an edit or addition to the docs, you'll probably want to take a look at the docs/ directory.
 
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+To edit the internals of how the site is built, you may want to get familiarized with how the site is built. The Casdoor website is a static site generated using Docusaurus. This directory is the frame of casdoor website. Visit the [Docusaurus website](https://docusaurus.io) to learn more about all the available configuration options.
