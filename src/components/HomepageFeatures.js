@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('../../static/img/easytouse.svg').default,
     description: (
       <>
-        A good software should be friendly to users, SciFracX packages privide users out-of-the-box experience with intuitive API and [illustrative docs]().
+        A good software should be friendly to users, SciFracX packages privide users out-of-the-box experience with intuitive API and [illustrative docs](http://scifracx.org/docs).
       </>
     ),
   },
