@@ -6,6 +6,8 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
 
+import Quotes from '../components/quotes';
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -34,7 +36,11 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+
       </main>
+      <div className="QuotesContainer">
+      <Quotes />
+      </div>
     </Layout>
   );
 }

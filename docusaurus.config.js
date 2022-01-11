@@ -83,11 +83,31 @@ const config = {
                 label: 'Documents',
                 to: 'docs',
               },
+              {
+                label: 'FractionalSystems.jl',
+                to: 'https://scifracx.org/FractionalSystems.jl/dev/',
+              },
+              {
+                label: 'FractionalDiffEq.jl',
+                to: 'https://scifracx.org/FractionalDiffeq.jl/dev/',
+              },
+              {
+                label: 'FractionalCalculus.jl',
+                to: 'https://scifracx.org/FractionalCalculus.jl/dev/',
+              },
+              {
+                label: 'FractionalTransforms.jl',
+                to: 'https://scifracx.org/FractionalTransforms.jl/dev/',
+              }
             ],
           },
           {
             title: 'Community',
             items: [
+              {
+                label: 'Slack #scifracx-bridged',
+                href: 'https://julialang.slack.com/',
+              },
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/scifracx',
