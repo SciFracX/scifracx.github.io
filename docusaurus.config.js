@@ -59,17 +59,18 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/SciFracX',
-            label: 'GitHub',
-            position: 'right',
-          },
-          {
             label: 'Community',
             to: 'community'
           },
           {
             label: 'Resources',
             to: 'resources',
+          },
+          {
+            href: 'https://github.com/SciFracX',
+            position: 'right',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
           }
         ],
       },
