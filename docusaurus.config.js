@@ -90,7 +90,7 @@ const config = {
               },
               {
                 label: 'FractionalDiffEq.jl',
-                to: 'https://scifracx.org/FractionalDiffeq.jl/dev/',
+                to: 'https://scifracx.org/FractionalDiffEq.jl/dev/',
               },
               {
                 label: 'FractionalCalculus.jl',
