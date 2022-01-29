@@ -13,6 +13,8 @@
   --ifm-color-primary-light: rgb(70, 203, 174);
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-test: #F5F6F7;
+  --ifm-white: #fff;
   --ifm-code-font-size: 95%;
 }
 
@@ -62,14 +64,14 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 }
 
 .QuotesContainer {
-  background-color: #F5F6F7;
+  background-color: var(--ifm-test);
   padding: 100px;
 }
 
 .mySwiper {
   height: 100%;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: var(--ifm-white);
 }
 
 .Slider {
@@ -88,7 +90,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 .SwiperSlide {
   text-align: center;
   font-size: 48px;
-  background: #fff;
+  background-color: var(--ifm-white);
 
   /* Center slide text vertically */
   display: -webkit-box;

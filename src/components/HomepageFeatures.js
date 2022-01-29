@@ -13,16 +13,16 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Easy to use',
+    title: 'Usability',
     Svg: require('../../static/img/easytouse.svg').default,
     description: (
       <>
-        A good software should be friendly to users, SciFracX packages privide users out-of-the-box experience with intuitive API and <a href="http://scifracx.org/docs">illustrative docs</a>.
+        A good software should be friendly to users, SciFracX packages provide users out-of-the-box experience with intuitive API and <a href="http://scifracx.org/docs">illustrative docs</a>.
       </>
     ),
   },
   {
-    title: 'Reliablity',
+    title: 'Compatibility',
     Svg: require('../../static/img/reliability.svg').default,
     description: (
       <>
