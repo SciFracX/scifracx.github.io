@@ -1,6 +1,6 @@
 # SciFracX Website
 
-SciFracX website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+SciFracX website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator. Inspired by [QuantumOptics.jl](https://qojulia.org/) website.
 
 ### Installation
 
