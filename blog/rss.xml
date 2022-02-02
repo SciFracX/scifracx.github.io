@@ -4,9 +4,17 @@
         <title>SciFracX Blog</title>
         <link>https://scifracx.org/blog</link>
         <description>SciFracX Blog</description>
-        <lastBuildDate>Sun, 09 Jan 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 02 Feb 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[SciFracX announcement in Discourse]]></title>
+            <link>https://scifracx.org/blog/scifracx-on-discourse</link>
+            <guid>scifracx-on-discourse</guid>
+            <pubDate>Wed, 02 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Happy Chinese new year!🐯🐯🐯]]></description>
+            <content:encoded><![CDATA[<p>Happy Chinese new year!🐯🐯🐯</p><p>I finally got around to announce our SciFracX community!</p><p>Today is also an auspicious day in lunar calendar, so here we are😆:</p><p><a href="https://discourse.julialang.org/t/scifracx-organization-fractional-order-computing-and-modeling/75614">https://discourse.julialang.org/t/scifracx-organization-fractional-order-computing-and-modeling/75614</a></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[SciFracX in JuliaCN Winter Conference]]></title>
             <link>https://scifracx.org/blog/scifracx-on-juliacn</link>

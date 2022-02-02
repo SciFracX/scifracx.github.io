@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://scifracx.org/blog</id>
     <title>SciFracX Blog</title>
-    <updated>2022-01-09T00:00:00.000Z</updated>
+    <updated>2022-02-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://scifracx.org/blog"/>
     <subtitle>SciFracX Blog</subtitle>
     <icon>https://scifracx.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[SciFracX announcement in Discourse]]></title>
+        <id>scifracx-on-discourse</id>
+        <link href="https://scifracx.org/blog/scifracx-on-discourse"/>
+        <updated>2022-02-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Happy Chinese new year!🐯🐯🐯]]></summary>
+        <content type="html"><![CDATA[<p>Happy Chinese new year!🐯🐯🐯</p><p>I finally got around to announce our SciFracX community!</p><p>Today is also an auspicious day in lunar calendar, so here we are😆:</p><p><a href="https://discourse.julialang.org/t/scifracx-organization-fractional-order-computing-and-modeling/75614">https://discourse.julialang.org/t/scifracx-organization-fractional-order-computing-and-modeling/75614</a></p>]]></content>
+        <author>
+            <name>Qingyu Qu</name>
+            <uri>https://github.com/ErikQQY</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[SciFracX in JuliaCN Winter Conference]]></title>
         <id>scifracx-on-juliacn</id>
