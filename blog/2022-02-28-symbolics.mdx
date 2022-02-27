@@ -1,0 +1,29 @@
+---
+slug: mdx-blog-post
+title: Symbolic Fractional Differentiation and Integration!
+authors: [ErikQQY]
+tags: [features, SciFracX, fractional calculus]
+---
+
+It is very happy to share that FractionalCalculus.jl is now supporting symbolic fractional differentiation and integration!!!
+
+With the help of [SymbolicUtils.jl](https://github.com/JuliaSymbolics/SymbolicUtils.jl), it is easy to first declare rules and apply defined rules to the expression
+
+```julia
+julia> using FractionalCalculus, SymbolicUtils
+julia> @syms x
+```
+
+All we need to use are ```semidiff``` and ```semiint``` functions to compute fractional differentiation and integration.
+
+```julia
+julia> semidiff(log(x))
+log(4x) / sqrt(πx)
+```
+
+```julia
+julia> semiint(x^2)
+0.6018022224509401(x^2.5)
+```
+
+Bingo!! Enjoy yourself~
