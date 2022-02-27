@@ -9,8 +9,8 @@
     <icon>https://scifracx.org/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Symbolic Fractional Differentiation and Integration!]]></title>
-        <id>mdx-blog-post</id>
-        <link href="https://scifracx.org/blog/mdx-blog-post"/>
+        <id>symbolics</id>
+        <link href="https://scifracx.org/blog/symbolics"/>
         <updated>2022-02-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[It is very happy to share that FractionalCalculus.jl is now supporting symbolic fractional differentiation and integration!!!]]></summary>
         <content type="html"><![CDATA[<p>It is very happy to share that FractionalCalculus.jl is now supporting symbolic fractional differentiation and integration!!!</p><p>With the help of <a href="https://github.com/JuliaSymbolics/SymbolicUtils.jl">SymbolicUtils.jl</a>, it is easy to first declare rules and apply defined rules to the expression</p><pre><code class="language-julia">julia&gt; using FractionalCalculus, SymbolicUtils
