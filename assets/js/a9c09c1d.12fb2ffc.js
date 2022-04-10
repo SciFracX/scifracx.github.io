@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkscifracx_github_io=self.webpackChunkscifracx_github_io||[]).push([[170],{4802:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/fractional-calculus","name":"fractional calculus","count":1,"permalink":"/blog/tags/fractional-calculus"}')}}]);

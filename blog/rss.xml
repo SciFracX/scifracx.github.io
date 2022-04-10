@@ -7,19 +7,17 @@
         <lastBuildDate>Mon, 28 Feb 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
         <item>
             <title><![CDATA[Symbolic Fractional Differentiation and Integration!]]></title>
             <link>https://scifracx.org/blog/symbolics</link>
             <guid>symbolics</guid>
             <pubDate>Mon, 28 Feb 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[It is very happy to share that FractionalCalculus.jl is now supporting symbolic fractional differentiation and integration!!!]]></description>
-            <content:encoded><![CDATA[<p>It is very happy to share that FractionalCalculus.jl is now supporting symbolic fractional differentiation and integration!!!</p><p>With the help of <a href="https://github.com/JuliaSymbolics/SymbolicUtils.jl">SymbolicUtils.jl</a>, it is easy to first declare rules and apply defined rules to the expression</p><pre><code class="language-julia">julia&gt; using FractionalCalculus, SymbolicUtils
-julia&gt; @syms x
-</code></pre><p>All we need to use are <code>semidiff</code> and <code>semiint</code> functions to compute fractional differentiation and integration.</p><pre><code class="language-julia">julia&gt; semidiff(log(x))
-log(4x) / sqrt(πx)
-</code></pre><pre><code class="language-julia">julia&gt; semiint(x^2)
-0.6018022224509401(x^2.5)
-</code></pre><p>Bingo!! Enjoy yourself~</p>]]></content:encoded>
+            <content:encoded><![CDATA[<p>It is very happy to share that FractionalCalculus.jl is now supporting symbolic fractional differentiation and integration!!!</p><p>With the help of <a href="https://github.com/JuliaSymbolics/SymbolicUtils.jl" target="_blank" rel="noopener noreferrer">SymbolicUtils.jl</a>, it is easy to first declare rules and apply defined rules to the expression</p><div class="codeBlockContainer_I0IT language-julia theme-code-block"><div class="codeBlockContent_wNvx" style="color:#393A34;background-color:#f6f8fa"><pre tabindex="0" class="prism-code language-julia codeBlock_jd64 thin-scrollbar"><code class="codeBlockLines_mRuA"><span class="token-line" style="color:#393A34"><span class="token plain">julia&gt; using FractionalCalculus, SymbolicUtils</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">julia&gt; @syms x</span><br></span></code></pre><button type="button" aria-label="Copy code to clipboard" title="Copy" class="copyButton_eDfN clean-btn"><span class="copyButtonIcons_W9eQ" aria-hidden="true"><svg class="copyButtonIcon_XEyF" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_i9w9" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div><p>All we need to use are <code>semidiff</code> and <code>semiint</code> functions to compute fractional differentiation and integration.</p><div class="codeBlockContainer_I0IT language-julia theme-code-block"><div class="codeBlockContent_wNvx" style="color:#393A34;background-color:#f6f8fa"><pre tabindex="0" class="prism-code language-julia codeBlock_jd64 thin-scrollbar"><code class="codeBlockLines_mRuA"><span class="token-line" style="color:#393A34"><span class="token plain">julia&gt; semidiff(log(x))</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">log(4x) / sqrt(πx)</span><br></span></code></pre><button type="button" aria-label="Copy code to clipboard" title="Copy" class="copyButton_eDfN clean-btn"><span class="copyButtonIcons_W9eQ" aria-hidden="true"><svg class="copyButtonIcon_XEyF" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_i9w9" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div><div class="codeBlockContainer_I0IT language-julia theme-code-block"><div class="codeBlockContent_wNvx" style="color:#393A34;background-color:#f6f8fa"><pre tabindex="0" class="prism-code language-julia codeBlock_jd64 thin-scrollbar"><code class="codeBlockLines_mRuA"><span class="token-line" style="color:#393A34"><span class="token plain">julia&gt; semiint(x^2)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">0.6018022224509401(x^2.5)</span><br></span></code></pre><button type="button" aria-label="Copy code to clipboard" title="Copy" class="copyButton_eDfN clean-btn"><span class="copyButtonIcons_W9eQ" aria-hidden="true"><svg class="copyButtonIcon_XEyF" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_i9w9" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div><p>Bingo!! Enjoy yourself~</p>]]></content:encoded>
+            <category>features</category>
+            <category>SciFracX</category>
+            <category>fractional calculus</category>
         </item>
         <item>
             <title><![CDATA[SciFracX announcement in Discourse]]></title>
@@ -27,7 +25,10 @@ log(4x) / sqrt(πx)
             <guid>scifracx-on-discourse</guid>
             <pubDate>Wed, 02 Feb 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Happy Chinese new year!🐯🐯🐯]]></description>
-            <content:encoded><![CDATA[<p>Happy Chinese new year!🐯🐯🐯</p><p>I finally got around to announce our SciFracX community!</p><p>Today is also an auspicious day in lunar calendar, so here we are😆:</p><p><a href="https://discourse.julialang.org/t/scifracx-organization-fractional-order-computing-and-modeling/75614">https://discourse.julialang.org/t/scifracx-organization-fractional-order-computing-and-modeling/75614</a></p>]]></content:encoded>
+            <content:encoded><![CDATA[<p>Happy Chinese new year!🐯🐯🐯</p><p>I finally got around to announce our SciFracX community!</p><p>Today is also an auspicious day in lunar calendar, so here we are😆:</p><p><a href="https://discourse.julialang.org/t/scifracx-organization-fractional-order-computing-and-modeling/75614" target="_blank" rel="noopener noreferrer">https://discourse.julialang.org/t/scifracx-organization-fractional-order-computing-and-modeling/75614</a></p>]]></content:encoded>
+            <category>ANN</category>
+            <category>SciFracX</category>
+            <category>community</category>
         </item>
         <item>
             <title><![CDATA[SciFracX in JuliaCN Winter Conference]]></title>
@@ -35,7 +36,10 @@ log(4x) / sqrt(πx)
             <guid>scifracx-on-juliacn</guid>
             <pubDate>Sun, 09 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[In 2021 winter, SciFracX participated the winter online meetup hosted by JuliaCN. (Before SciFracX official website published🤪)]]></description>
-            <content:encoded><![CDATA[<p>In 2021 winter, SciFracX participated the winter online meetup hosted by JuliaCN. (Before SciFracX official website published🤪)</p><p>The video:</p><div youTubeId="oVvrW7EgEwg"></div><br/><p>The slides:</p><iframe src="https://julia-cn-conf2021.vercel.app/1" height="400px" width="700px"></iframe>]]></content:encoded>
+            <content:encoded><![CDATA[<p>In 2021 winter, SciFracX participated the winter online meetup hosted by JuliaCN. (Before SciFracX official website published🤪)</p><p>The video:</p><div data-testid="general-observer" class="mdx-embed"><div style="height:0;width:100%"></div></div><br><p>The slides:</p><iframe src="https://julia-cn-conf2021.vercel.app/1" height="400px" width="700px"></iframe>]]></content:encoded>
+            <category>conference</category>
+            <category>SciFracX</category>
+            <category>community</category>
         </item>
         <item>
             <title><![CDATA[Hello World!]]></title>
@@ -43,7 +47,10 @@ log(4x) / sqrt(πx)
             <guid>mdx-blog-post</guid>
             <pubDate>Fri, 07 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Hello all!]]></description>
-            <content:encoded><![CDATA[<p>Hello all!</p><p>The official website of SciFracX project is now published using <a href="https://docusaurus.io/">Docusaurus</a>!</p><p>SciFracX is an orgnization aiming at making fractional order computing and modeling easier than ever with Julia.</p><p>Now, there are four packages under SciFracX, <a href="https://github.com/SciFracX/FractionalSystems.jl">FractionalSystems.jl</a>, <a href="https://github.com/SciFracX/FractionalDiffEq.jl">FractionalDiffEq.jl</a>, <a href="https://github.com/SciFracX/FractionalCalculus.jl">FractionalCalculus.jl</a> and <a href="https://github.com/SciFracX/FractionalTransforms.jl">FractionalTransforms.jl</a>.</p><p>If you are also interested in fractional order computing and modeling, JuliaLang and numerical methods binding math and programming, welcome to join SciFracX!!!!!</p>]]></content:encoded>
+            <content:encoded><![CDATA[<p>Hello all!</p><p>The official website of SciFracX project is now published using <a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer">Docusaurus</a>!</p><p>SciFracX is an orgnization aiming at making fractional order computing and modeling easier than ever with Julia.</p><p>Now, there are four packages under SciFracX, <a href="https://github.com/SciFracX/FractionalSystems.jl" target="_blank" rel="noopener noreferrer">FractionalSystems.jl</a>, <a href="https://github.com/SciFracX/FractionalDiffEq.jl" target="_blank" rel="noopener noreferrer">FractionalDiffEq.jl</a>, <a href="https://github.com/SciFracX/FractionalCalculus.jl" target="_blank" rel="noopener noreferrer">FractionalCalculus.jl</a> and <a href="https://github.com/SciFracX/FractionalTransforms.jl" target="_blank" rel="noopener noreferrer">FractionalTransforms.jl</a>.</p><p>If you are also interested in fractional order computing and modeling, JuliaLang and numerical methods binding math and programming, welcome to join SciFracX!!!!!</p>]]></content:encoded>
+            <category>annoncement</category>
+            <category>SciFracX</category>
+            <category>community</category>
         </item>
     </channel>
 </rss>
