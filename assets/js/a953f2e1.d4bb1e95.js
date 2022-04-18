@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkscifracx_github_io=self.webpackChunkscifracx_github_io||[]).push([[807],{5470:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","name":"SciFracX","count":4,"permalink":"/blog/tags/sci-frac-x"}')}}]);

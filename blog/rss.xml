@@ -4,10 +4,21 @@
         <title>SciFracX Blog</title>
         <link>https://scifracx.org/blog</link>
         <description>SciFracX Blog</description>
-        <lastBuildDate>Mon, 28 Feb 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 18 Apr 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[SciFracX in SciMLCon!]]></title>
+            <link>https://scifracx.org/blog/scifracx-on-SciMLCon</link>
+            <guid>scifracx-on-SciMLCon</guid>
+            <pubDate>Mon, 18 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Finally got some time to publish this blog post😋。]]></description>
+            <content:encoded><![CDATA[<p>Finally got some time to publish this blog post😋。</p><p>March 23rd, we represent <a href="https://www.youtube.com/watch?v=ti16lYst-Bc" target="_blank" rel="noopener noreferrer">Fractional Order Computing and Modeling with Julia</a> in <a href="https://scimlcon.org/2022/" target="_blank" rel="noopener noreferrer">SciMLCon</a>!!!</p><p>This is absolutely an amazing experience!😄</p><div data-testid="general-observer" class="mdx-embed"><div style="height:0;width:100%"></div></div>]]></content:encoded>
+            <category>SciML</category>
+            <category>SciFracX</category>
+            <category>community</category>
+        </item>
         <item>
             <title><![CDATA[Symbolic Fractional Differentiation and Integration!]]></title>
             <link>https://scifracx.org/blog/symbolics</link>

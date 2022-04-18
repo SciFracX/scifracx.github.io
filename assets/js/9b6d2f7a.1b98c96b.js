@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkscifracx_github_io=self.webpackChunkscifracx_github_io||[]).push([[7683],{9672:function(s){s.exports=JSON.parse('{"permalink":"/blog/tags/sci-frac-x","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

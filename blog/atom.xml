@@ -2,11 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://scifracx.org/blog</id>
     <title>SciFracX Blog</title>
-    <updated>2022-02-28T00:00:00.000Z</updated>
+    <updated>2022-04-18T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://scifracx.org/blog"/>
     <subtitle>SciFracX Blog</subtitle>
     <icon>https://scifracx.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[SciFracX in SciMLCon!]]></title>
+        <id>scifracx-on-SciMLCon</id>
+        <link href="https://scifracx.org/blog/scifracx-on-SciMLCon"/>
+        <updated>2022-04-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Finally got some time to publish this blog post😋。]]></summary>
+        <content type="html"><![CDATA[<p>Finally got some time to publish this blog post😋。</p><p>March 23rd, we represent <a href="https://www.youtube.com/watch?v=ti16lYst-Bc" target="_blank" rel="noopener noreferrer">Fractional Order Computing and Modeling with Julia</a> in <a href="https://scimlcon.org/2022/" target="_blank" rel="noopener noreferrer">SciMLCon</a>!!!</p><p>This is absolutely an amazing experience!😄</p><div data-testid="general-observer" class="mdx-embed"><div style="height:0;width:100%"></div></div>]]></content>
+        <author>
+            <name>Qingyu Qu</name>
+            <uri>https://github.com/ErikQQY</uri>
+        </author>
+        <category label="SciML" term="SciML"/>
+        <category label="SciFracX" term="SciFracX"/>
+        <category label="community" term="community"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Symbolic Fractional Differentiation and Integration!]]></title>
         <id>symbolics</id>
