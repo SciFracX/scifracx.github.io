@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('../../static/img/highperformance.svg').default,
     description: (
       <>
-        With the high performance Julia language, we value the speed of each algorithms in SciFracX project, try our best to provide users high performance features.
+        With <a href="http://julialang.org">Julia language</a>, we value the speed of algorithms in SciFracX project, try our best to provide users high performance equations solvers.
       </>
     ),
   },
