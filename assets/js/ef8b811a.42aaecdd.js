@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkscifracx_github_io=globalThis.webpackChunkscifracx_github_io||[]).push([[8947],{6600(i){i.exports=JSON.parse('{"authors":[{"name":"Qingyu Qu","title":"SciFracX maintainer","url":"https://github.com/ErikQQY","imageURL":"https://github.com/ErikQQY.png","key":"ErikQQY","page":null,"count":5}]}')}}]);

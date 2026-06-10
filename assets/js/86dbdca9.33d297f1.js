@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkscifracx_github_io=self.webpackChunkscifracx_github_io||[]).push([[1345],{2339:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","name":"conference","count":1,"permalink":"/blog/tags/conference"}')}}]);
